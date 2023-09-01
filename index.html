@@ -1,16 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
+    <!-- CSS Y FAVICON + TITLE -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+    <title>Javascript - Primera Pre-entrega!</title>
 </head>
-<body>
-    
 
+<body>
+    <header class="header">
+        <!-- LOGO -->
+        <div class="menu container">
+            <a href="./assets/img/logo-transparente.webp" class="logo"></a>
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="./assets/img/menu.png" class="menu-icono" alt="menu">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="./index.html">INICIO</a></li>
+                    <li><a href="./pages/nosotros.html">NOSOTROS</a></li>
+                    <li><a href="./pages/tienda.html">TIENDA</a></li>
+                    <li><a href="./pages/contacto.html"></a>CONTACTO</li>
+                </ul>
+            </nav>
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img src="./assets/img/car.svg" id="img-carrito" alt="carrito-de-compra">
+                        <div id="carrito">
+                            <table class="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="" id="vaciar-carrito" class="btn-2">Vaciar Carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="header-content container">
+            <div class="header-img">
+                <img src="./assets/img/alienintro.webp" alt="">
+            </div>
+            <div class="header-txt">
+                <h1>Ofertas Especiales</h1>
+                <p>los mejores precios</p>
+                <a href="#" class="btn-1">Informacion</a>
+            </div>
+        </div>
+
+    </header>
+    
+        <section class="ofert container">
+            <div class="ofert-1">
+                <div class="ofert.img">
+                    <img src="./assets/img/alienintro.webp" alt="">
+                </div>
+                <div class="ofert-txt">
+                    <h3>Producto 1</h3>
+                    <a href="#" class="btn-2"> informacion</a>
+                </div>
+            </div>
+            <div class="ofert-1">
+                <div class="ofert.img">
+                    <img src="./assets/img/alienintro.webp" alt="">
+                </div>
+                <div class="ofert-txt">
+                    <h3>Producto 2</h3>
+                    <a href="#" class="btn-2"> informacion</a>
+                </div>
+            </div>
+            <div class="ofert-1">
+                <div class="ofert.img">
+                    <img src="./assets/img/alienintro.webp" alt="">
+                </div>
+                <div class="ofert-txt">
+                    <h3>Producto 3</h3>
+                    <a href="#" class="btn-2"> informacion</a>
+                </div>
+            </div>
+
+        </section>
+
+
+
+
+    
+    <footer>
+        <!-- <div>
+            <p>
+                Copyright todos los derechos reservados
+                <a href="mailto:arquerr92@gmail.com">
+                    <strong>© Michael Morales ~</strong>
+                </a>
+            </p>
+        </div> -->
+    </footer>
 
 
     <script src="./javascript.js"></script>
 </body>
+
 </html>
