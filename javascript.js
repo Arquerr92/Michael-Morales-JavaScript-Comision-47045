@@ -5,7 +5,7 @@ edad = parseInt(edad)
 // Verifica si el usuario es mayor de edad
 if (edad >= 18) {
     alert("Bienvenido. Eres mayor de edad y puedes acceder al contenido restringido.")
-    onsole.log("Eres Mayor de edad. Puedes acceder al contenido restringido.")
+    console.log("Eres Mayor de edad. Puedes acceder al contenido restringido.")
 } else {
 // Si el usuario es menor de edad, muestra un mensaje y redirige a una página restringida.
     alert("Lo siento, eres menor de edad y no puedes acceder al contenido restringido.")
