@@ -90,7 +90,6 @@ function mostrarCatalogoDOM(array){
 containerBebidayComida.append(ProductoNuevoDiv)
     }
 }
-console.log(mostrarCatalogo)
 mostrarCatalogoDOM(estanteria)
 
 
