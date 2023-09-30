@@ -78,7 +78,7 @@ function mostrarCatalogoDOM(array){
         let ProductoNuevoDiv= document.createElement("div")
         ProductoNuevoDiv.innerHTML = `
         <div id= "${BebidayComida.id}" class="product">
-                <img src="/assets/img/${BebidayComida.imagen}" alt="bebida">
+                <img src="./assets/img/${BebidayComida.imagen}" alt="bebida">
                 <div class="product-txt">
                     <p>Nombre: ${BebidayComida.nombre}</p>
                     <p>Calidad 10/10</p>
