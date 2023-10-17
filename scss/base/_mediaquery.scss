@@ -1,92 +1,197 @@
+
 @media (max-width: 991px) {
     .menu {
-        padding: 20px;
+      padding: 20px;
     }
     .menu label {
-        display: initial;
+      display: initial;
     }
     .menu .navbar {
-        position: absolute;
-        top: 100%;
-        left: 0;
-        right: 0;
-        background-color: #181818;
-        display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background-color: #181818;
+      display: none;
     }
     .menu .navbar ul li {
-        width: 100%;
+      width: 100%;
     }
     .menu .navbar ul li a {
-        color: #ffffff;
+      color: #ffffff;
     }
     #menu:checked ~ .navbar {
-        display: initial;
+      display: initial;
     }
     .logo {
-        display: none;
+      display: none;
     }
     .submenu:hover #carrito {
-        min-width: 100%;
+      min-width: 100%;
     }
     .header {
-        min-height: 0vh;
+      min-height: 0vh;
     }
     .header-content {
-        padding: 50px 0;
-        flex-direction: column;
+      padding: 50px 0;
+      flex-direction: column;
     }
     .header-img {
-        display: none;
+      display: none;
     }
     .header-txt {
-        flex-basis: 100%;
-        text-align: center;
+      flex-basis: 100%;
+      text-align: center;
     }
     .header-txt h1 {
-        font-size: 70px;
+      font-size: 70px;
     }
     .ofert {
-        padding: 30px 30px 0 30px;
-        flex-direction: column;
+      padding: 30px 30px 0 30px;
+      flex-direction: column;
     }
     .ofert-1 {
-        margin-bottom: 30px;
+      margin-bottom: 30px;
     }
     .products {
-        padding: 0 30px 30px 30px;
+      padding: 0 30px 30px 30px;
     }
     .products h2 {
-        margin-bottom: 30px;
+      margin-bottom: 30px;
     }
     .product-content {
-        grid-template-columns: repeat(1,1fr);
-        gap: 30px;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 30px;
     }
     .product img {
-        width: 200px;
-        height: 280px;
+      width: 200px;
+      height: 280px;
     }
     .icons {
-        padding: 30px;
-        flex-direction: column;
+      padding: 30px;
+      flex-direction: column;
     }
     .icons-1 {
-        margin-bottom: 30px;
+      margin-bottom: 30px;
     }
     .blog {
-        padding: 0 30px 30px 30px;
-        flex-direction: column;
+      padding: 0 30px 30px 30px;
+      flex-direction: column;
     }
     .blog-1 {
-        margin-bottom: 30px;
+      margin-bottom: 30px;
     }
     .footer {
-        padding: 30px;
+      padding: 30px;
     }
     .footer-content {
-        flex-direction: column;
-        text-align: center;
+      flex-direction: column;
+      text-align: center;
     }
+  }
+  
+  @media screen and (max-width: 850px) {
+    .contenedor-productos {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 675px) {
+    .contenedor-productos {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .wrapper {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    aside {
+        position: fixed;
+        z-index: 9;
+        background-color: var(--clr-main);
+        left: 0;
+        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .75);
+        transform: translateX(-100%);
+        opacity: 0;
+        visibility: hidden;
+        transition: .2s;
+    }
+
+    .aside-visible {
+        transform: translateX(0);
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .boton-menu.active::before,
+    .boton-menu.active::after {
+        display: none;
+    }
+
+    main {
+        margin: 1rem;
+        margin-top: 0;
+        padding: 2rem;
+    }
+
+    .contenedor-productos {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .header-mobile {
+        padding: 1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header-mobile .logo {
+        color: var(--clr-gray);
+    }
+
+    .open-menu, .close-menu {
+        background-color: transparent;
+        color: var(--clr-gray);
+        border: 0;
+        font-size: 2rem;
+        cursor: pointer;
+    }
+
+    .close-menu {
+        display: block;
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+    }
+
+    .carrito-producto {
+        gap: 1rem;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        padding: .5rem;
+    }
+
+    .carrito-producto-subtotal {
+        display: none;
+    }
+
+    .carrito-acciones {
+        flex-wrap: wrap;
+        row-gap: 1rem;
+    }
+    
 
 }
 
+
+
+@media screen and (max-width: 400px) {
+    .contenedor-productos {
+        grid-template-columns: 1fr;
+    }
+}
