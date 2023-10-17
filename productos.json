@@ -1,0 +1,102 @@
+[
+{
+    "id":"cerveza-01",
+    "titulo":"Cerveza 01",
+    "imagen":"./assets/img/alien-cerveza-1.webp",
+    "categoria": {
+        "nombre":"Cervezas",
+        "id":"Cervezas"
+    },
+    "precio": 800
+},
+{
+    "id":"cerveza-02",
+    "titulo":"Cerveza 02",
+    "imagen":"./assets/img/alien-cerveza-2.webp",
+    "categoria": {
+        "nombre":"Cervezas",
+        "id":"Cervezas"
+    },
+    "precio": 1000
+},
+{
+    "id":"cerveza-03",
+    "titulo":"Cerveza 03",
+    "imagen":"./assets/img/alien-cerveza-3.webp",
+    "categoria": {
+        "nombre":"Cervezas",
+        "id":"Cervezas"
+    },
+    "precio": 950
+},
+{
+    "id":"comida-01",
+    "titulo":"Comida 01",
+    "imagen":"./assets/img/comida-alien-1.webp",
+    "categoria": {
+        "nombre":"Comida",
+        "id":"Comida"
+    },
+    "precio": 280
+},
+{
+    "id":"comida-02",
+    "titulo":"Comida 02",
+    "imagen":"./assets/img/comida-alien-2.webp",
+    "categoria": {
+        "nombre":"Comida",
+        "id":"Comida"
+    },
+    "precio": 630
+},
+{
+    "id":"comida-03",
+    "titulo":"Comida 03",
+    "imagen":"./assets/img/comida-alien-3.webp",
+    "categoria": {
+        "nombre":"Comida",
+        "id":"Comida"
+    },
+    "precio": 720
+},
+{
+    "id":"comida-04",
+    "titulo":"Comida 04",
+    "imagen":"./assets/img/comida-alien-4.webp",
+    "categoria": {
+        "nombre":"Comida",
+        "id":"Comida"
+    },
+    "precio": 350
+},
+{
+    "id":"comida-05",
+    "titulo":"Comida 05",
+    "imagen":"./assets/img/comida-alien-5.webp",
+    "categoria": {
+        "nombre":"Comida",
+        "id":"Comida"
+    },
+    "precio": 750
+},
+{
+    "id":"comida-06",
+    "titulo":"Comida 06",
+    "imagen":"./assets/img/comida-alien-6.webp",
+    "categoria": {
+        "nombre":"Comida",
+        "id":"Comida"
+    },
+    "precio": 500
+},
+{
+    "id":"comida-07",
+    "titulo":"Comida 07",
+    "imagen":"./assets/img/comida-alien-7.webp",
+    "categoria": {
+        "nombre":"Comida",
+        "id":"Comida"
+    },
+    "precio": 450
+}
+]
